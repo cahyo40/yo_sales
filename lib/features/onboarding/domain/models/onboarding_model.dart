@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:yo_sales/core/assets/images/images_const.dart';
-import 'package:yo_sales/core/language/l10n.dart';
+import 'package:yo_sales/core/helpers/l10n.dart';
 
 part 'onboarding_model.freezed.dart';
 part 'onboarding_model.g.dart';
