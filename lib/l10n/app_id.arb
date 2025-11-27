@@ -1,0 +1,35 @@
+{
+    "@@locale": "id",
+    "onboard_title_1": "Kelola Toko Jadi Lebih Sederhana",
+    "@onboard_title_1": {
+        "placeholders": {}
+    },
+    "onboard_title_2": "Atur Banyak Cabang Sekaligus",
+    "@onboard_title_2": {
+        "placeholders": {}
+    },
+    "onboard_title_3": "Transaksi Lebih Cepat, Penjualan Lebih Lancar",
+    "@onboard_title_3": {
+        "placeholders": {}
+    },
+    "onboard_desc_1": "Aplikasi kasir modern untuk UMKM dengan tampilan minimalis dan alur cepat. Cocok untuk tablet & smartphone.",
+    "@onboard_desc_1": {
+        "placeholders": {}
+    },
+    "onboard_desc_2": "Kelola beberapa outlet dalam satu akun, pantau stok dan transaksi tiap cabang secara real time.",
+    "@onboard_desc_2": {
+        "placeholders": {}
+    },
+    "onboard_desc_3": "Proses penjualan instan dengan tampilan kasir yang ringkas, responsif, dan mudah digunakan.",
+    "@onboard_desc_3": {
+        "placeholders": {}
+    },
+    "next": "Lanjut",
+    "@next": {
+        "placeholders": {}
+    },
+    "get_started": "Mulai",
+    "@get_started": {
+        "placeholders": {}
+    }
+}
