@@ -80,7 +80,7 @@ class OnboardingInfoScreen extends StatelessWidget {
                   );
                   providerNotifier.onNextPage();
                   if (provider.value! == pageLength - 1) {
-                    context.push(RoutePaths.HOME);
+                    context.go(RoutePaths.LOGIN);
                   }
                 },
               ),
