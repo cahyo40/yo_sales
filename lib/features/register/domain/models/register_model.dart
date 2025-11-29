@@ -1,0 +1,16 @@
+import 'package:freezed_annotation/freezed_annotation.dart';
+
+part 'register_model.freezed.dart';
+part 'register_model.g.dart';
+
+@freezed
+class RegisterModel with _$RegisterModel {
+  const factory RegisterModel({
+    required String id,
+    required String name,
+    // Add your fields here
+  }) = _RegisterModel;
+
+  factory RegisterModel.fromJson(Map<String, dynamic> json) =>
+      _$RegisterModelFromJson(json);
+}
