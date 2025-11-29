@@ -31,5 +31,53 @@
     "get_started": "Mulai",
     "@get_started": {
         "placeholders": {}
+    },
+    "login_title": "Masuk ke YoSale",
+    "@login_title": {
+        "placeholders": {}
+    },
+    "login_body": "Kelola semua outlet Anda dalam satu tempat. Masuk untuk mulai mengatur produk, transaksi dan laporan penjualan.",
+    "@login_body": {
+        "placeholders": {}
+    },
+    "email": "Email",
+    "@email": {
+        "placeholders": {}
+    },
+    "password": "Kata Sandi",
+    "@password": {
+        "placeholders": {}
+    },
+    "forget_password": "Lupa Kata Sandi",
+    "@forget_password": {
+        "placeholders": {}
+    },
+    "register": "Daftar",
+    "@register": {
+        "placeholders": {}
+    },
+    "register_now": "Belum punya akun? ",
+    "@register_now": {
+        "placeholders": {}
+    },
+    "snackbar_login_e": "Gagal masuk. Periksa email dan kata sandi Anda.",
+    "@snackbar_login_e": {
+        "placeholders": {}
+    },
+    "snackbar_login_s": "Berhasil masuk. Selamat datang kembali!",
+    "@snackbar_login_s": {
+        "placeholders": {}
+    },
+    "btn_login": "Masuk",
+    "@btn_login": {
+        "placeholders": {}
+    },
+    "btn_register": "Daftar",
+    "@btn_register": {
+        "placeholders": {}
+    },
+    "btn_send_email": "Kirim Email",
+    "@btn_send_email": {
+        "placeholders": {}
     }
 }

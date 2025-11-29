@@ -145,6 +145,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Get Started'**
   String get get_started;
+
+  /// No description provided for @login_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to YoSale'**
+  String get login_title;
+
+  /// No description provided for @login_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage all your outlets in one place. Sign in to start handling products, transactions and sales reports.'**
+  String get login_body;
+
+  /// No description provided for @email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @password.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// No description provided for @forget_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password'**
+  String get forget_password;
+
+  /// No description provided for @register.
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get register;
+
+  /// No description provided for @register_now.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account? '**
+  String get register_now;
+
+  /// No description provided for @snackbar_login_e.
+  ///
+  /// In en, this message translates to:
+  /// **'Login failed. Please check your email and password.'**
+  String get snackbar_login_e;
+
+  /// No description provided for @snackbar_login_s.
+  ///
+  /// In en, this message translates to:
+  /// **'Login successful. Welcome back!'**
+  String get snackbar_login_s;
+
+  /// No description provided for @btn_login.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign In'**
+  String get btn_login;
+
+  /// No description provided for @btn_register.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Up'**
+  String get btn_register;
+
+  /// No description provided for @btn_send_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Email'**
+  String get btn_send_email;
 }
 
 class _AppLocalizationsDelegate
