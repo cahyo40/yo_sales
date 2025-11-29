@@ -1,18 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import '../../providers/login_provider.dart';
+import 'package:yo_sales/core/assets/images/images_const.dart';
+import 'package:yo_ui/yo_ui_base.dart';
 
 class LoginImageScreen extends ConsumerWidget {
   const LoginImageScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    // You can watch specific providers here
-    // final state = ref.watch(someProvider);
-    
-    return const Center(
-      child: Text('LoginImageScreen is working'),
-    );
+    return YoImage.asset(assetPath: YoAssetsImage.login, fit: BoxFit.cover);
   }
 }
