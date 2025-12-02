@@ -79,5 +79,85 @@
     "btn_send_email": "Kirim Email",
     "@btn_send_email": {
         "placeholders": {}
+    },
+    "shop_name": "Nama Toko",
+    "@shop_name": {
+        "placeholders": {}
+    },
+    "shop_addess": "Alamat Toko",
+    "@shop_addess": {
+        "placeholders": {}
+    },
+    "shop_type": "Jenis Toko",
+    "@shop_type": {
+        "placeholders": {}
+    },
+    "shop_number": "Nomor Telepon Toko",
+    "@shop_number": {
+        "placeholders": {}
+    },
+    "shop_description": "Deskripsi Toko",
+    "@shop_description": {
+        "placeholders": {}
+    },
+    "shop_name_hint": "Masukkan nama toko Anda",
+    "@shop_name_hint": {
+        "placeholders": {}
+    },
+    "shop_addess_hint": "Masukkan alamat toko",
+    "@shop_addess_hint": {
+        "placeholders": {}
+    },
+    "shop_type_hint": "Pilih jenis toko",
+    "@shop_type_hint": {
+        "placeholders": {}
+    },
+    "shop_number_hint": "Masukkan nomor telepon toko",
+    "@shop_number_hint": {
+        "placeholders": {}
+    },
+    "shop_description_hint": "Jelaskan secara singkat tentang toko Anda",
+    "@shop_description_hint": {
+        "placeholders": {}
+    },
+    "full_name": "Nama Lengkap",
+    "@full_name": {
+        "placeholders": {}
+    },
+    "full_name_hint": "Masukkan nama lengkap Anda",
+    "@full_name_hint": {
+        "placeholders": {}
+    },
+    "phone_number": "Nomor Telepon",
+    "@phone_number": {
+        "placeholders": {}
+    },
+    "phone_number_hint": "Masukkan nomor telepon Anda",
+    "@phone_number_hint": {
+        "placeholders": {}
+    },
+    "confirm_password": "Konfirmasi Kata Sandi",
+    "@confirm_password": {
+        "placeholders": {}
+    },
+    "confirm_password_hint": "Masukkan ulang kata sandi Anda",
+    "@confirm_password_hint": {
+        "placeholders": {}
+    },
+    "email_hint": "Masukkan email Anda",
+    "@email_hint": {
+        "placeholders": {}
+    },
+    "password_hint": "Masukkan kata sandi Anda",
+    "@password_hint": {
+        "placeholders": {}
+    },
+    "register_success_title": "Pendaftaran Berhasil",
+    "@register_success_title": {
+        "placeholders": {}
+    },
+    "register_success_desc": "Akun Anda telah berhasil dibuat",
+    "@register_success_desc": {
+        "placeholders": {}
     }
 }

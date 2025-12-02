@@ -72,4 +72,65 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get btn_send_email => 'Kirim Email';
+
+  @override
+  String get shop_name => 'Nama Toko';
+
+  @override
+  String get shop_addess => 'Alamat Toko';
+
+  @override
+  String get shop_type => 'Jenis Toko';
+
+  @override
+  String get shop_number => 'Nomor Telepon Toko';
+
+  @override
+  String get shop_description => 'Deskripsi Toko';
+
+  @override
+  String get shop_name_hint => 'Masukkan nama toko Anda';
+
+  @override
+  String get shop_addess_hint => 'Masukkan alamat toko';
+
+  @override
+  String get shop_type_hint => 'Pilih jenis toko';
+
+  @override
+  String get shop_number_hint => 'Masukkan nomor telepon toko';
+
+  @override
+  String get shop_description_hint =>
+      'Jelaskan secara singkat tentang toko Anda';
+
+  @override
+  String get full_name => 'Nama Lengkap';
+
+  @override
+  String get full_name_hint => 'Masukkan nama lengkap Anda';
+
+  @override
+  String get phone_number => 'Nomor Telepon';
+
+  @override
+  String get phone_number_hint => 'Masukkan nomor telepon Anda';
+
+  @override
+  String get confirm_password => 'Konfirmasi Kata Sandi';
+
+  @override
+  String get confirm_password_hint => 'Masukkan ulang kata sandi Anda';
+
+  @override
+  String get email_hint => 'Masukkan email Anda';
+
+  @override
+  String get password_hint => 'Masukkan kata sandi Anda';
+
+  @override
+  String get register_success_title => 'Pendaftaran Berhasil';
+
+  @override
+  String get register_success_desc => 'Akun Anda telah berhasil dibuat';
 }
