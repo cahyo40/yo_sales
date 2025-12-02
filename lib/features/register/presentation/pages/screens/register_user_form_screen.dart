@@ -67,11 +67,11 @@ class RegisterUserFormScreen extends HookConsumerWidget {
               inputStyle: YoInputStyle.minimal,
               validator: YoValidation.compose([
                 (v) => YoValidation.required(v, fieldName: l10n.password),
-                // (v) => YoValidation.passwordLength(v, 8),
-                // (v) => YoValidation.passwordUppercase(v),
-                // (v) => YoValidation.passwordLowercase(v),
-                // (v) => YoValidation.passwordNumber(v),
-                // (v) => YoValidation.passwordSpecialChar(v),
+                (v) => YoValidation.passwordLength(v, 8),
+                (v) => YoValidation.passwordUppercase(v),
+                (v) => YoValidation.passwordLowercase(v),
+                (v) => YoValidation.passwordNumber(v),
+                (v) => YoValidation.passwordSpecialChar(v),
               ]),
             ),
             YoTextFormField(
@@ -101,7 +101,6 @@ class RegisterUserFormScreen extends HookConsumerWidget {
                         phone: phoneController.text,
                       );
                   ref.watch(registerNotifierProvider);
-                  // YoLogger.debug(data.email); // sekarang harus muncul
                   pageController.nextPage(
                     duration: const Duration(milliseconds: 300),
                     curve: Curves.easeInOut,
