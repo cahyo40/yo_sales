@@ -1,8 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:yo_sales/core/helpers/l10n.dart';
+import 'package:yo_sales/core/navigation/route_paths.dart';
+import 'package:yo_sales/l10n/app_localizations.dart';
 import 'package:yo_ui/yo_ui.dart';
 
 class LoginFormScreen extends HookConsumerWidget {
@@ -14,7 +16,7 @@ class LoginFormScreen extends HookConsumerWidget {
     final password = useTextEditingController();
     final formKey = useMemoized(() => GlobalKey<FormState>());
     final isLoading = useState(false);
-    final l10n = L10n.t(context);
+    final l10n = AppLocalizations.of(context)!;
 
     login() {
       if (formKey.currentState!.validate()) {
@@ -109,7 +111,10 @@ class LoginFormScreen extends HookConsumerWidget {
                   style: context.yoBodyMedium.copyWith(
                     color: context.primaryColor,
                   ),
-                  recognizer: TapGestureRecognizer()..onTap = () {},
+                  recognizer: TapGestureRecognizer()
+                    ..onTap = () {
+                      context.push(RoutePaths.REGISTER);
+                    },
                 ),
               ],
             ),
