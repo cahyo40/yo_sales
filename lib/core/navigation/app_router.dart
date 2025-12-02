@@ -1,13 +1,14 @@
 import 'package:go_router/go_router.dart';
 
+import '../../features/bottom_nav/presentation/pages/bottom_nav_page.dart';
 import '../../features/home/presentation/pages/home_page.dart';
-import 'route_paths.dart';
-import '../../features/register/presentation/pages/register_page.dart';
 import '../../features/login/presentation/pages/login_page.dart';
 import '../../features/onboarding/presentation/pages/onboarding_page.dart';
+import '../../features/register/presentation/pages/register_page.dart';
+import 'route_paths.dart';
 
 final appRouter = GoRouter(
-  initialLocation: RoutePaths.ONBOARDING,
+  initialLocation: RoutePaths.BOTTOM_NAV,
   routes: [
     GoRoute(
       path: RoutePaths.HOME,
@@ -17,11 +18,17 @@ final appRouter = GoRouter(
       path: RoutePaths.ONBOARDING,
       builder: (context, state) => const OnboardingPage(),
     ),
-      GoRoute(
+    GoRoute(
       path: RoutePaths.LOGIN,
       builder: (context, state) => const LoginPage(),
-    ),    GoRoute(
+    ),
+    GoRoute(
       path: RoutePaths.REGISTER,
       builder: (context, state) => const RegisterPage(),
-    ),],
+    ),
+    GoRoute(
+      path: RoutePaths.BOTTOM_NAV,
+      builder: (context, state) => const BottomNavPage(),
+    ),
+  ],
 );
