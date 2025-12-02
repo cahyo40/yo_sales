@@ -1,29 +1,42 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:yo_sales/features/register/presentation/pages/screens/register_shop_screen.dart';
+import 'package:yo_sales/features/register/presentation/pages/screens/register_success_screen.dart';
+import 'package:yo_sales/features/register/presentation/pages/screens/register_user_screen.dart';
+import 'package:yo_ui/yo_ui_base.dart';
 
-import '../providers/register_provider.dart';
-
-class RegisterPage extends ConsumerWidget {
+class RegisterPage extends HookConsumerWidget {
   const RegisterPage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final asyncState = ref.watch(registerNotifierProvider);
-    
+    final pageController = PageController();
+    final currentPage = useState(1);
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Register'),
-        centerTitle: true,
-      ),
-      body: asyncState.when(
-        data: (data) => const Center(
-          child: Text(
-            'RegisterPage is working',
-            style: TextStyle(fontSize: 20),
-          ),
+      body: SafeArea(
+        child: Column(
+          children: [
+            YoProgress.linear(
+              color: context.primaryColor,
+              value: currentPage.value / 3,
+            ),
+            Expanded(
+              child: PageView(
+                controller: pageController,
+                physics: NeverScrollableScrollPhysics(),
+                onPageChanged: (index) {
+                  currentPage.value = index + 1;
+                },
+                children: [
+                  RegisterUserScreen(pageController: pageController),
+                  RegisterShopScreen(pageController: pageController),
+                  RegisterSuccessScreen(),
+                ],
+              ),
+            ),
+          ],
         ),
-        loading: () => const Center(child: CircularProgressIndicator()),
-        error: (error, stack) => Center(child: Text('Error: $error')),
       ),
     );
   }
