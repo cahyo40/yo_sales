@@ -159,5 +159,41 @@
     "register_success_desc": "Akun Anda telah berhasil dibuat",
     "@register_success_desc": {
         "placeholders": {}
+    },
+    "owner": "Pemilik",
+    "@owner": {
+        "placeholders": {}
+    },
+    "admin": "Admin",
+    "@admin": {
+        "placeholders": {}
+    },
+    "cashier": "Kasir",
+    "@cashier": {
+        "placeholders": {}
+    },
+    "home": "Beranda",
+    "@home": {
+        "placeholders": {}
+    },
+    "history": "Riwayat",
+    "@history": {
+        "placeholders": {}
+    },
+    "outlet": "Outlet",
+    "@outlet": {
+        "placeholders": {}
+    },
+    "product": "Produk",
+    "@product": {
+        "placeholders": {}
+    },
+    "report": "Laporan",
+    "@report": {
+        "placeholders": {}
+    },
+    "profile": "Profil",
+    "@profile": {
+        "placeholders": {}
     }
 }
