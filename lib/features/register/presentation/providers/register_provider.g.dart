@@ -6,12 +6,12 @@ part of 'register_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$registerNotifierHash() => r'91d90d3c3f202907a4f40b2ef690f58b8207e636';
+String _$registerNotifierHash() => r'05ace4577033d1b1e116a4271b40cb37cd6d80d6';
 
 /// See also [RegisterNotifier].
 @ProviderFor(RegisterNotifier)
 final registerNotifierProvider =
-    AutoDisposeAsyncNotifierProvider<RegisterNotifier, void>.internal(
+    AutoDisposeNotifierProvider<RegisterNotifier, RegisterModel>.internal(
       RegisterNotifier.new,
       name: r'registerNotifierProvider',
       debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
@@ -21,6 +21,6 @@ final registerNotifierProvider =
       allTransitiveDependencies: null,
     );
 
-typedef _$RegisterNotifier = AutoDisposeAsyncNotifier<void>;
+typedef _$RegisterNotifier = AutoDisposeNotifier<RegisterModel>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package
