@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:yo_sales/core/assets/images/images_const.dart';
-import 'package:yo_sales/core/helpers/l10n.dart';
+import 'package:yo_sales/l10n/app_localizations.dart';
 
 part 'onboarding_model.freezed.dart';
 part 'onboarding_model.g.dart';
@@ -23,20 +23,20 @@ class OnboardingModel with _$OnboardingModel {
     OnboardingModel(
       id: '1',
       image: YoAssetsImage.onboarding1,
-      title: L10n.t(context).onboard_title_1,
-      description: L10n.t(context).onboard_desc_1,
+      title: AppLocalizations.of(context)!.onboard_title_1,
+      description: AppLocalizations.of(context)!.onboard_desc_1,
     ),
     OnboardingModel(
       id: '2',
       image: YoAssetsImage.onboarding2,
-      title: L10n.t(context).onboard_title_2,
-      description: L10n.t(context).onboard_desc_2,
+      title: AppLocalizations.of(context)!.onboard_title_2,
+      description: AppLocalizations.of(context)!.onboard_desc_2,
     ),
     OnboardingModel(
       id: '3',
       image: YoAssetsImage.onboarding3,
-      title: L10n.t(context).onboard_title_3,
-      description: L10n.t(context).onboard_desc_3,
+      title: AppLocalizations.of(context)!.onboard_title_3,
+      description: AppLocalizations.of(context)!.onboard_desc_3,
     ),
   ];
 }

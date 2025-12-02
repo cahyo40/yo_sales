@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:yo_sales/core/helpers/l10n.dart';
 import 'package:yo_sales/core/navigation/route_paths.dart';
 import 'package:yo_sales/features/onboarding/domain/models/onboarding_model.dart';
 import 'package:yo_sales/features/onboarding/presentation/providers/onboarding_provider.dart';
+import 'package:yo_sales/l10n/app_localizations.dart';
 import 'package:yo_ui/yo_ui.dart';
 
 class OnboardingInfoScreen extends StatelessWidget {
@@ -25,6 +25,7 @@ class OnboardingInfoScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     return Expanded(
       flex: flex,
       child: YoColumn(
@@ -70,8 +71,8 @@ class OnboardingInfoScreen extends StatelessWidget {
               YoButton.primary(
                 textColor: context.onPrimaryColor,
                 text: provider.value! < pageLength - 1
-                    ? L10n.t(context).next
-                    : L10n.t(context).get_started,
+                    ? l10n.next
+                    : l10n.get_started,
                 onPressed: () {
                   pageController.animateToPage(
                     provider.value! < 2 ? provider.value! + 1 : 2,
@@ -80,7 +81,7 @@ class OnboardingInfoScreen extends StatelessWidget {
                   );
                   providerNotifier.onNextPage();
                   if (provider.value! == pageLength - 1) {
-                    context.push(RoutePaths.HOME);
+                    context.go(RoutePaths.LOGIN);
                   }
                 },
               ),

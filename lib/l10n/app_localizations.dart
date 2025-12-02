@@ -145,6 +145,198 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Get Started'**
   String get get_started;
+
+  /// No description provided for @login_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to YoSale'**
+  String get login_title;
+
+  /// No description provided for @login_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage all your outlets in one place. Sign in to start handling products, transactions and sales reports.'**
+  String get login_body;
+
+  /// No description provided for @email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @password.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// No description provided for @forget_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password'**
+  String get forget_password;
+
+  /// No description provided for @register.
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get register;
+
+  /// No description provided for @register_now.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account? '**
+  String get register_now;
+
+  /// No description provided for @snackbar_login_e.
+  ///
+  /// In en, this message translates to:
+  /// **'Login failed. Please check your email and password.'**
+  String get snackbar_login_e;
+
+  /// No description provided for @snackbar_login_s.
+  ///
+  /// In en, this message translates to:
+  /// **'Login successful. Welcome back!'**
+  String get snackbar_login_s;
+
+  /// No description provided for @btn_login.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign In'**
+  String get btn_login;
+
+  /// No description provided for @btn_register.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Up'**
+  String get btn_register;
+
+  /// No description provided for @btn_send_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Email'**
+  String get btn_send_email;
+
+  /// No description provided for @shop_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Name'**
+  String get shop_name;
+
+  /// No description provided for @shop_addess.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Address'**
+  String get shop_addess;
+
+  /// No description provided for @shop_type.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Type'**
+  String get shop_type;
+
+  /// No description provided for @shop_number.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Phone Number'**
+  String get shop_number;
+
+  /// No description provided for @shop_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop Description'**
+  String get shop_description;
+
+  /// No description provided for @shop_name_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your shop name'**
+  String get shop_name_hint;
+
+  /// No description provided for @shop_addess_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter shop address'**
+  String get shop_addess_hint;
+
+  /// No description provided for @shop_type_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Select shop type'**
+  String get shop_type_hint;
+
+  /// No description provided for @shop_number_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter shop phone number'**
+  String get shop_number_hint;
+
+  /// No description provided for @shop_description_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Briefly describe your shop'**
+  String get shop_description_hint;
+
+  /// No description provided for @full_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Full Name'**
+  String get full_name;
+
+  /// No description provided for @full_name_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your full name'**
+  String get full_name_hint;
+
+  /// No description provided for @phone_number.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone Number'**
+  String get phone_number;
+
+  /// No description provided for @phone_number_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your phone number'**
+  String get phone_number_hint;
+
+  /// No description provided for @confirm_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm Password'**
+  String get confirm_password;
+
+  /// No description provided for @confirm_password_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enter your password'**
+  String get confirm_password_hint;
+
+  /// No description provided for @email_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email'**
+  String get email_hint;
+
+  /// No description provided for @password_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your password'**
+  String get password_hint;
+
+  /// No description provided for @register_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Register Success'**
+  String get register_success_title;
+
+  /// No description provided for @register_success_desc.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account has been created successfully'**
+  String get register_success_desc;
 }
 
 class _AppLocalizationsDelegate
