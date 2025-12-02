@@ -8,4 +8,5 @@ class YoAssetsImage {
   static String login = _path('login');
   static String register1 = _path('register-1');
   static String register2 = _path('register-2');
+  static String registerSuccess = _path('register-success');
 }

@@ -79,5 +79,85 @@
     "btn_send_email": "Send Email",
     "@btn_send_email": {
         "placeholders": {}
+    },
+    "shop_name": "Shop Name",
+    "@shop_name": {
+        "placeholders": {}
+    },
+    "shop_addess": "Shop Address",
+    "@shop_addess": {
+        "placeholders": {}
+    },
+    "shop_type": "Shop Type",
+    "@shop_type": {
+        "placeholders": {}
+    },
+    "shop_number": "Shop Phone Number",
+    "@shop_number": {
+        "placeholders": {}
+    },
+    "shop_description": "Shop Description",
+    "@shop_description": {
+        "placeholders": {}
+    },
+    "shop_name_hint": "Enter your shop name",
+    "@shop_name_hint": {
+        "placeholders": {}
+    },
+    "shop_addess_hint": "Enter shop address",
+    "@shop_addess_hint": {
+        "placeholders": {}
+    },
+    "shop_type_hint": "Select shop type",
+    "@shop_type_hint": {
+        "placeholders": {}
+    },
+    "shop_number_hint": "Enter shop phone number",
+    "@shop_number_hint": {
+        "placeholders": {}
+    },
+    "shop_description_hint": "Briefly describe your shop",
+    "@shop_description_hint": {
+        "placeholders": {}
+    },
+    "full_name": "Full Name",
+    "@full_name": {
+        "placeholders": {}
+    },
+    "full_name_hint": "Enter your full name",
+    "@full_name_hint": {
+        "placeholders": {}
+    },
+    "phone_number": "Phone Number",
+    "@phone_number": {
+        "placeholders": {}
+    },
+    "phone_number_hint": "Enter your phone number",
+    "@phone_number_hint": {
+        "placeholders": {}
+    },
+    "confirm_password": "Confirm Password",
+    "@confirm_password": {
+        "placeholders": {}
+    },
+    "confirm_password_hint": "Re-enter your password",
+    "@confirm_password_hint": {
+        "placeholders": {}
+    },
+    "email_hint": "Enter your email",
+    "@email_hint": {
+        "placeholders": {}
+    },
+    "password_hint": "Enter your password",
+    "@password_hint": {
+        "placeholders": {}
+    },
+    "register_success_title": "Register Success",
+    "@register_success_title": {
+        "placeholders": {}
+    },
+    "register_success_desc": "Your account has been created successfully",
+    "@register_success_desc": {
+        "placeholders": {}
     }
 }
