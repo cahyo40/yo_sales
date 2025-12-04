@@ -133,4 +133,31 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get register_success_desc =>
       'Your account has been created successfully';
+
+  @override
+  String get owner => 'Owner';
+
+  @override
+  String get admin => 'Admin';
+
+  @override
+  String get cashier => 'Cashier';
+
+  @override
+  String get home => 'Home';
+
+  @override
+  String get history => 'History';
+
+  @override
+  String get outlet => 'Outlet';
+
+  @override
+  String get product => 'Product';
+
+  @override
+  String get report => 'Report';
+
+  @override
+  String get profile => 'Profile';
 }

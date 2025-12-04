@@ -159,5 +159,41 @@
     "register_success_desc": "Your account has been created successfully",
     "@register_success_desc": {
         "placeholders": {}
+    },
+    "owner": "Owner",
+    "@owner": {
+        "placeholders": {}
+    },
+    "admin": "Admin",
+    "@admin": {
+        "placeholders": {}
+    },
+    "cashier": "Cashier",
+    "@cashier": {
+        "placeholders": {}
+    },
+    "home": "Home",
+    "@home": {
+        "placeholders": {}
+    },
+    "history": "History",
+    "@history": {
+        "placeholders": {}
+    },
+    "outlet": "Outlet",
+    "@outlet": {
+        "placeholders": {}
+    },
+    "product": "Product",
+    "@product": {
+        "placeholders": {}
+    },
+    "report": "Report",
+    "@report": {
+        "placeholders": {}
+    },
+    "profile": "Profile",
+    "@profile": {
+        "placeholders": {}
     }
 }

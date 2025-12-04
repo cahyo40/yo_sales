@@ -133,4 +133,31 @@ class AppLocalizationsId extends AppLocalizations {
 
   @override
   String get register_success_desc => 'Akun Anda telah berhasil dibuat';
+
+  @override
+  String get owner => 'Pemilik';
+
+  @override
+  String get admin => 'Admin';
+
+  @override
+  String get cashier => 'Kasir';
+
+  @override
+  String get home => 'Beranda';
+
+  @override
+  String get history => 'Riwayat';
+
+  @override
+  String get outlet => 'Outlet';
+
+  @override
+  String get product => 'Produk';
+
+  @override
+  String get report => 'Laporan';
+
+  @override
+  String get profile => 'Profil';
 }
